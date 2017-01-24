@@ -167,6 +167,8 @@ return [
          * Package Service Providers...
          */
 
+        Naux\Mail\SendCloudServiceProvider::class,
+
         //
 
         /*
@@ -177,7 +179,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Naux\Mail\SendCloudServiceProvider::class
+
 
     ],
 
